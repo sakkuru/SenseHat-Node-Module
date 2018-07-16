@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SenseHat Remote Debug (Node.js)",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "address": "localhost",
+            "localRoot": "${workspaceRoot}/modules/SenseHat",
+            "remoteRoot": "/app",
+            "protocol": "inspector"
+        },
+        {
+          "name": "SenseHat Remote Debug (Node.js in Windows Container)",
+          "type": "node",
+          "request": "attach",
+          "port": 9229,
+          "address": "localhost",
+          "localRoot": "${workspaceRoot}/modules/SenseHat",
+          "remoteRoot": "C:\\app",
+          "protocol": "inspector"
+      }
+    ]
+  }
